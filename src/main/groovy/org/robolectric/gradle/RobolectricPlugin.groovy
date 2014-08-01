@@ -13,7 +13,7 @@ import org.gradle.api.tasks.testing.TestReport
 class RobolectricPlugin implements Plugin<Project> {
     private static final String[] TEST_DIRS = ['test', 'androidTest']
     private static final String TEST_TASK_NAME = 'test'
-    private static final String TEST_CLASSES_DIR = 'test-classes'
+    private static final String TEST_CLASSES_DIR = 'android-scala/variant/debugTest/scalaCompile'
     private static final String TEST_REPORT_DIR = 'test-report'
     private static final String RELEASE_VARIANT = 'release'
 
